@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+
+  /* Paleta Nuba */
+  --color-primario: #9B3160;       /* magenta oscuro / ciruela */
+  --color-primario-suave: #D46C8C; /* rosa frambuesa medio (hover, acentos) */
+  --color-fondo-card: #FBB3BB;     /* rosa pastel suave (tarjetas, badges) */
+  --color-beige: #ffffff;          /* fondo blanco */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primario: var(--color-primario);
+  --color-primario-suave: var(--color-primario-suave);
+  --color-primarioSuave: var(--color-primario-suave);
+  --color-fondo-card: var(--color-fondo-card);
+  --color-fondoCard: var(--color-fondo-card);
+  --color-beige: var(--color-beige);
+}
+header{
+  background-color: #94426A;
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;  
+}
